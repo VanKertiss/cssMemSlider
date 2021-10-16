@@ -42,14 +42,6 @@
   width: 200px;
 }
 
-#text1,
-#text2,
-#text3,
-#text4,
-#text5 {
-  opacity: 0;
-}
-
 .switchers {
   margin: auto;
   margin-top: 40px;
@@ -89,14 +81,6 @@
 #img_4:checked~div #switcher4,
 #img_5:checked~div #switcher5 {
   background: #990000;
-}
-
-#img_1:checked~div #text1,
-#img_2:checked~#text2,
-#img_3:checked~#text3,
-#img_4:checked~#text4,
-#img_5:checked~#text5 {
-  opacity: 1;
 }
 
 #img_1:checked~#one,
