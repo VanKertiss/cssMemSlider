@@ -3,9 +3,19 @@
   padding: 0;
 }
 
+body{
+  background-color: grey;
+}
+
+.container{
+  max-width: 1300px;
+  width: 95%;
+  margin: 0 auto;
+}
+
 .slider-container {
   position: relative;
-  margin: 20px auto 0;
+  margin: 20px auto;
   width: 65%;
   height: 0;
   padding-bottom: 40%;
@@ -38,6 +48,7 @@
 }
 
 .text {
+  font-size: 24px;
   margin-top: 50px;
   width: 200px;
 }
@@ -49,12 +60,13 @@
   height: 30px;
   bottom: 0;
   text-align: right;
+  margin-top: 570px;
 }
 
 .switcher {
   background: rgba(0, 0, 0, .7);
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   position: relative;
   top: 7px;
   margin: 0 4px;
@@ -75,11 +87,11 @@
   transition: 1s;
 }
 
-#img_1:checked~div #switcher1,
-#img_2:checked~div #switcher2,
-#img_3:checked~div #switcher3,
-#img_4:checked~div #switcher4,
-#img_5:checked~div #switcher5 {
+div #img_1:checked~div #switcher1,
+div #img_2:checked~div #switcher2,
+div #img_3:checked~div #switcher3,
+div #img_4:checked~div #switcher4,
+div #img_5:checked~div #switcher5 {
   background: #990000;
 }
 
@@ -95,7 +107,7 @@
 @media (max-width:600px) {
   .switchers {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 260px;
     width: 550px;
     height: 30px;
     bottom: 0;
